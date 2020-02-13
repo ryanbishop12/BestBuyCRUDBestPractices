@@ -4,7 +4,7 @@ namespace BestBuyCRUDBestPractices
 {
     class Department
     {
-        public int ID { get; set; }
+        public int DepartmentId { get; set; }
         public string Name { get; set; }
     }
 }

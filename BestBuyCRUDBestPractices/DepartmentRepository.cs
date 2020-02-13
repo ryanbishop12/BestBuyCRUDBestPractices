@@ -30,7 +30,7 @@ namespace BestBuyCRUDBestPractices
                 while(reader.Read() == true)
                 {
                     var currentDepartment = new Department();
-                    currentDepartment.ID = (int)reader["DepartmentID"];
+                    currentDepartment.DepartmentId = (int)reader["DepartmentID"];
                     currentDepartment.Name = (string)reader["Name"];
 
                     allDepartments.Add(currentDepartment);
